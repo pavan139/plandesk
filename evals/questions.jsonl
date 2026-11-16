@@ -1,0 +1,42 @@
+{"id": "ira-limit-2024", "category": "limit", "question": "What is the maximum I can contribute to a traditional IRA for 2024 if I'm 40?", "expected": ["$7,000"]}
+{"id": "ira-limit-2025-50plus", "category": "limit", "question": "For 2025, what is the IRA contribution limit for someone age 55?", "expected": ["$8,000"]}
+{"id": "401k-deferral-2024", "category": "limit", "question": "What was the 401(k) elective deferral limit for 2024 for an employee under age 50?", "expected": ["$23,000"]}
+{"id": "401k-deferral-2025", "category": "limit", "question": "What is the elective deferral limit for 2025 for a participant under 50?", "expected": ["$23,500"]}
+{"id": "401k-deferral-2026", "category": "next_year", "question": "What is the elective deferral limit in 2026 for someone under age 50?", "expected": ["$24,500"]}
+{"id": "401k-50plus-2024", "category": "limit", "question": "In 2024, how much could an employee age 50 or over defer in total, including catch-up contributions?", "expected": ["$30,500"]}
+{"id": "401k-50plus-2025", "category": "limit", "question": "For 2025, what is the total elective deferral limit for a 52-year-old, including catch-up?", "expected": ["$31,000"]}
+{"id": "catchup-60-63-401k", "category": "limit", "question": "For 2025, what is the higher catch-up contribution limit for 401(k) participants who turn 61 that year?", "expected": ["$11,250"]}
+{"id": "catchup-60-63-simple", "category": "limit", "question": "In 2025, what is the higher catch-up limit for SIMPLE plan participants who attain age 62?", "expected": ["$5,250"]}
+{"id": "sep-2024", "category": "limit", "question": "What is the most an employer could contribute for 2024 to a common-law employee's SEP IRA?", "expected": ["25%", "$69,000"]}
+{"id": "sep-2025", "category": "limit", "question": "For 2025, what is the maximum employer contribution to an employee's SEP IRA?", "expected": ["25%", "$70,000"]}
+{"id": "dc-limit-2026", "category": "next_year", "question": "What is the 2026 limit on contributions, other than catch-up contributions, to a defined contribution plan?", "expected": ["$72,000"]}
+{"id": "simple-2024", "category": "limit", "question": "What was the general limit on SIMPLE IRA salary reduction contributions for 2024?", "expected": ["$16,000"]}
+{"id": "simple-2025", "category": "limit", "question": "What is the general SIMPLE IRA salary reduction contribution limit for 2025?", "expected": ["$16,500"]}
+{"id": "simple-2026", "category": "next_year", "question": "What will the general SIMPLE IRA salary reduction limit be for 2026?", "expected": ["$17,000"]}
+{"id": "comp-limit-2024", "category": "limit", "question": "What was the maximum compensation that could be used to figure retirement plan contributions in 2024?", "expected": ["$345,000"]}
+{"id": "comp-limit-2025", "category": "limit", "question": "For 2025, what is the maximum compensation used for figuring contributions and benefits?", "expected": ["$350,000"]}
+{"id": "db-limit-2025", "category": "limit", "question": "What is the 2025 limit on annual benefits for a participant in a defined benefit plan?", "expected": ["$280,000"]}
+{"id": "roth-cutoff-single-2024", "category": "limit", "question": "In 2024, at what modified AGI can a single filer no longer contribute to a Roth IRA at all?", "expected": ["$161,000"]}
+{"id": "roth-cutoff-single-2025", "category": "limit", "question": "For 2025, at what modified AGI is a single filer completely unable to make a Roth IRA contribution?", "expected": ["$165,000"]}
+{"id": "roth-phaseout-start-2025", "category": "limit", "question": "For 2025, at what modified AGI does a single filer's Roth IRA contribution limit start to be reduced?", "expected": ["$150,000"]}
+{"id": "trad-deduction-single-2024", "category": "limit", "question": "For 2024, what is the modified AGI phase-out range for deducting traditional IRA contributions for a single filer covered by a workplace retirement plan?", "expected": ["$77,000", "$87,000"]}
+{"id": "trad-deduction-mfj-2025", "category": "limit", "question": "For 2025, what is the traditional IRA deduction phase-out range for a married couple filing jointly when the contributor is covered by a plan at work?", "expected": ["$126,000", "$146,000"]}
+{"id": "qcd-2024", "category": "year_trap", "question": "What was the maximum annual exclusion for qualified charitable distributions (QCDs) in 2024?", "expected": ["$105,000"]}
+{"id": "qcd-2025", "category": "year_trap", "question": "What is the maximum annual exclusion for QCDs for 2025?", "expected": ["$108,000"]}
+{"id": "rmd-age", "category": "rule", "question": "If I reach age 72 after December 31, 2022, at what age do I have to start required minimum distributions from my traditional IRA?", "expected": ["73"]}
+{"id": "rmd-deadline", "category": "rule", "question": "By what date must the first required minimum distribution from a traditional IRA be taken?", "expected": ["April 1"]}
+{"id": "first-home", "category": "rule", "question": "How much can I withdraw from my IRA before age 59 1/2 for a first home without paying the 10% additional tax?", "expected": ["$10,000"]}
+{"id": "excess-contribution-tax", "category": "rule", "question": "What excise tax applies to excess IRA contributions that are not withdrawn in time?", "expected": ["6%"]}
+{"id": "early-distribution-tax", "category": "rule", "question": "What additional tax generally applies to IRA distributions taken before age 59 1/2?", "expected": ["10%"]}
+{"id": "rollover-window", "category": "rule", "question": "How many days do I generally have to roll over a distribution from my IRA into another IRA?", "expected": ["60"]}
+{"id": "rollover-frequency", "category": "rule", "question": "How often can I do an IRA-to-IRA rollover?", "expected": ["re:\\b(one|1)\\b", "re:(12-month|1-year|one-year|12 months)"]}
+{"id": "inherited-10-year", "category": "rule", "question": "For an IRA owner who died, by when must distributions generally be completed for beneficiaries who aren't eligible designated beneficiaries?", "expected": ["10"]}
+{"id": "startup-credit", "category": "rule", "question": "Under SECURE 2.0, what percentage of qualified startup costs can employers with 1 to 50 employees claim for the small employer pension plan startup cost credit?", "expected": ["100%"]}
+{"id": "solo-401k-adoption", "category": "rule", "question": "Can a sole proprietor with no employees still adopt a 401(k) plan after the tax year ends?", "expected": ["re:(filing deadline|due date)"]}
+{"id": "abstain-2028", "category": "abstain", "question": "What is the 401(k) elective deferral limit for 2028?", "abstain": true}
+{"id": "abstain-2030-ira", "category": "abstain", "question": "How much can I put in an IRA in 2030?", "abstain": true}
+{"id": "abstain-hsa", "category": "abstain", "question": "What is the annual HSA contribution limit for family coverage in 2025?", "abstain": true}
+{"id": "abstain-fsa", "category": "abstain", "question": "What is the health FSA salary reduction limit for 2025?", "abstain": true}
+{"id": "abstain-california", "category": "abstain", "question": "How does California tax IRA distributions?", "abstain": true}
+{"id": "abstain-fund-pick", "category": "abstain", "question": "Which index fund should I buy inside my Roth IRA?", "abstain": true}
+{"id": "abstain-company-match", "category": "abstain", "question": "What is Acme Corp's 401(k) employer match formula?", "abstain": true}

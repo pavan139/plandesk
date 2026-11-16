@@ -1,0 +1,1826 @@
+{
+  "summary": {
+    "model": "gpt-5.4-mini",
+    "mode": "full",
+    "n": 42,
+    "answer_accuracy_pct": 97.1,
+    "supported_by_citation_pct": 94.3,
+    "false_abstention_pct": 2.9,
+    "abstention_recall_pct": 100.0,
+    "abstention_precision_pct": 87.5,
+    "overall_accuracy_pct": 97.6,
+    "accuracy_by_category_pct": {
+      "abstain": 100.0,
+      "limit": 100.0,
+      "next_year": 100.0,
+      "rule": 90.0,
+      "year_trap": 100.0
+    },
+    "latency_p50_s": 1.68,
+    "latency_p95_s": 2.17,
+    "tokens_per_query_mean": 1884,
+    "tokens_total": 75360
+  },
+  "rows": [
+    {
+      "id": "ira-limit-2024",
+      "category": "limit",
+      "should_abstain": false,
+      "abstained": false,
+      "correct": true,
+      "supported": true
+    },
+    {
+      "id": "ira-limit-2025-50plus",
+      "category": "limit",
+      "should_abstain": false,
+      "abstained": false,
+      "correct": true,
+      "supported": true
+    },
+    {
+      "id": "401k-deferral-2024",
+      "category": "limit",
+      "should_abstain": false,
+      "abstained": false,
+      "correct": true,
+      "supported": true
+    },
+    {
+      "id": "401k-deferral-2025",
+      "category": "limit",
+      "should_abstain": false,
+      "abstained": false,
+      "correct": true,
+      "supported": true
+    },
+    {
+      "id": "401k-deferral-2026",
+      "category": "next_year",
+      "should_abstain": false,
+      "abstained": false,
+      "correct": true,
+      "supported": true
+    },
+    {
+      "id": "401k-50plus-2024",
+      "category": "limit",
+      "should_abstain": false,
+      "abstained": false,
+      "correct": true,
+      "supported": true
+    },
+    {
+      "id": "401k-50plus-2025",
+      "category": "limit",
+      "should_abstain": false,
+      "abstained": false,
+      "correct": true,
+      "supported": false
+    },
+    {
+      "id": "catchup-60-63-401k",
+      "category": "limit",
+      "should_abstain": false,
+      "abstained": false,
+      "correct": true,
+      "supported": true
+    },
+    {
+      "id": "catchup-60-63-simple",
+      "category": "limit",
+      "should_abstain": false,
+      "abstained": false,
+      "correct": true,
+      "supported": true
+    },
+    {
+      "id": "sep-2024",
+      "category": "limit",
+      "should_abstain": false,
+      "abstained": false,
+      "correct": true,
+      "supported": true
+    },
+    {
+      "id": "sep-2025",
+      "category": "limit",
+      "should_abstain": false,
+      "abstained": false,
+      "correct": true,
+      "supported": true
+    },
+    {
+      "id": "dc-limit-2026",
+      "category": "next_year",
+      "should_abstain": false,
+      "abstained": false,
+      "correct": true,
+      "supported": true
+    },
+    {
+      "id": "simple-2024",
+      "category": "limit",
+      "should_abstain": false,
+      "abstained": false,
+      "correct": true,
+      "supported": true
+    },
+    {
+      "id": "simple-2025",
+      "category": "limit",
+      "should_abstain": false,
+      "abstained": false,
+      "correct": true,
+      "supported": true
+    },
+    {
+      "id": "simple-2026",
+      "category": "next_year",
+      "should_abstain": false,
+      "abstained": false,
+      "correct": true,
+      "supported": true
+    },
+    {
+      "id": "comp-limit-2024",
+      "category": "limit",
+      "should_abstain": false,
+      "abstained": false,
+      "correct": true,
+      "supported": true
+    },
+    {
+      "id": "comp-limit-2025",
+      "category": "limit",
+      "should_abstain": false,
+      "abstained": false,
+      "correct": true,
+      "supported": true
+    },
+    {
+      "id": "db-limit-2025",
+      "category": "limit",
+      "should_abstain": false,
+      "abstained": false,
+      "correct": true,
+      "supported": true
+    },
+    {
+      "id": "roth-cutoff-single-2024",
+      "category": "limit",
+      "should_abstain": false,
+      "abstained": false,
+      "correct": true,
+      "supported": true
+    },
+    {
+      "id": "roth-cutoff-single-2025",
+      "category": "limit",
+      "should_abstain": false,
+      "abstained": false,
+      "correct": true,
+      "supported": true
+    },
+    {
+      "id": "roth-phaseout-start-2025",
+      "category": "limit",
+      "should_abstain": false,
+      "abstained": false,
+      "correct": true,
+      "supported": true
+    },
+    {
+      "id": "trad-deduction-single-2024",
+      "category": "limit",
+      "should_abstain": false,
+      "abstained": false,
+      "correct": true,
+      "supported": true
+    },
+    {
+      "id": "trad-deduction-mfj-2025",
+      "category": "limit",
+      "should_abstain": false,
+      "abstained": false,
+      "correct": true,
+      "supported": true
+    },
+    {
+      "id": "qcd-2024",
+      "category": "year_trap",
+      "should_abstain": false,
+      "abstained": false,
+      "correct": true,
+      "supported": true
+    },
+    {
+      "id": "qcd-2025",
+      "category": "year_trap",
+      "should_abstain": false,
+      "abstained": false,
+      "correct": true,
+      "supported": true
+    },
+    {
+      "id": "rmd-age",
+      "category": "rule",
+      "should_abstain": false,
+      "abstained": false,
+      "correct": true,
+      "supported": true
+    },
+    {
+      "id": "rmd-deadline",
+      "category": "rule",
+      "should_abstain": false,
+      "abstained": false,
+      "correct": true,
+      "supported": true
+    },
+    {
+      "id": "first-home",
+      "category": "rule",
+      "should_abstain": false,
+      "abstained": true,
+      "correct": false,
+      "supported": false
+    },
+    {
+      "id": "excess-contribution-tax",
+      "category": "rule",
+      "should_abstain": false,
+      "abstained": false,
+      "correct": true,
+      "supported": true
+    },
+    {
+      "id": "early-distribution-tax",
+      "category": "rule",
+      "should_abstain": false,
+      "abstained": false,
+      "correct": true,
+      "supported": true
+    },
+    {
+      "id": "rollover-window",
+      "category": "rule",
+      "should_abstain": false,
+      "abstained": false,
+      "correct": true,
+      "supported": true
+    },
+    {
+      "id": "rollover-frequency",
+      "category": "rule",
+      "should_abstain": false,
+      "abstained": false,
+      "correct": true,
+      "supported": true
+    },
+    {
+      "id": "inherited-10-year",
+      "category": "rule",
+      "should_abstain": false,
+      "abstained": false,
+      "correct": true,
+      "supported": true
+    },
+    {
+      "id": "startup-credit",
+      "category": "rule",
+      "should_abstain": false,
+      "abstained": false,
+      "correct": true,
+      "supported": true
+    },
+    {
+      "id": "solo-401k-adoption",
+      "category": "rule",
+      "should_abstain": false,
+      "abstained": false,
+      "correct": true,
+      "supported": true
+    },
+    {
+      "id": "abstain-2028",
+      "category": "abstain",
+      "should_abstain": true,
+      "abstained": true,
+      "correct": true,
+      "supported": null
+    },
+    {
+      "id": "abstain-2030-ira",
+      "category": "abstain",
+      "should_abstain": true,
+      "abstained": true,
+      "correct": true,
+      "supported": null
+    },
+    {
+      "id": "abstain-hsa",
+      "category": "abstain",
+      "should_abstain": true,
+      "abstained": true,
+      "correct": true,
+      "supported": null
+    },
+    {
+      "id": "abstain-fsa",
+      "category": "abstain",
+      "should_abstain": true,
+      "abstained": true,
+      "correct": true,
+      "supported": null
+    },
+    {
+      "id": "abstain-california",
+      "category": "abstain",
+      "should_abstain": true,
+      "abstained": true,
+      "correct": true,
+      "supported": null
+    },
+    {
+      "id": "abstain-fund-pick",
+      "category": "abstain",
+      "should_abstain": true,
+      "abstained": true,
+      "correct": true,
+      "supported": null
+    },
+    {
+      "id": "abstain-company-match",
+      "category": "abstain",
+      "should_abstain": true,
+      "abstained": true,
+      "correct": true,
+      "supported": null
+    }
+  ],
+  "results": [
+    {
+      "question": "What is the maximum I can contribute to a traditional IRA for 2024 if I'm 40?",
+      "answer": "For 2024, the maximum contribution to a traditional IRA is $7,000 if you are under age 50. The excerpt states: \u201cFor 2024, you can contribute to a traditional IRA up to: \u2022 $7,000, or \u2022 $8,000 if you were age 50 or older by the end of 2024.\u201d",
+      "abstained": false,
+      "citations": [
+        {
+          "id": "590A-2024-p5-c0",
+          "quote": "For 2024, you can contribute to a traditional IRA up to: \u2022 $7,000, or \u2022 $8,000 if you were age 50 or older by the end of 2024.",
+          "verified": true,
+          "source": "Pub. 590-A (2024), PDF p. 5"
+        }
+      ],
+      "retrieved_ids": [
+        "590A-2024-p10-c2",
+        "590A-2024-p10-c3",
+        "590A-2024-p5-c0",
+        "590A-2024-p10-c0",
+        "590A-2024-p5-c1",
+        "590A-2024-p39-c3"
+      ],
+      "year_filter": 2024,
+      "model": "gpt-5.4-mini",
+      "mode": "full",
+      "input_tokens": 1697,
+      "output_tokens": 152,
+      "latency_s": 1.4850749999750406,
+      "cost_usd": 0.0,
+      "guard": ""
+    },
+    {
+      "question": "For 2025, what is the IRA contribution limit for someone age 55?",
+      "answer": "For 2025, the IRA contribution limit for someone age 55 is $8,000. The excerpt says: \u201cFor 2025, the IRA contribution limit remains $7,000 ($8,000 for individuals age 50 or older).\u201d It also says: \u201cyou can contribute to a traditional IRA up to: \u2022 $7,000, or \u2022 $8,000 if you were age 50 or older by the end of 2025.\u201d",
+      "abstained": false,
+      "citations": [
+        {
+          "id": "590A-2025-p1-c2",
+          "quote": "For 2025, the IRA contribution limit remains $7,000 ($8,000 for individuals age 50 or older).",
+          "verified": true,
+          "source": "Pub. 590-A (2025), PDF p. 1"
+        },
+        {
+          "id": "590A-2025-p5-c0",
+          "quote": "For 2025, you can contribute to a traditional IRA up to: \u2022 $7,000, or \u2022 $8,000 if you were age 50 or older by the end of 2025.",
+          "verified": true,
+          "source": "Pub. 590-A (2025), PDF p. 5"
+        }
+      ],
+      "retrieved_ids": [
+        "590A-2025-p1-c2",
+        "590A-2025-p5-c0",
+        "590A-2025-p40-c3",
+        "590A-2025-p10-c4",
+        "560-2025-p16-c3",
+        "590A-2025-p10-c0"
+      ],
+      "year_filter": 2025,
+      "model": "gpt-5.4-mini",
+      "mode": "full",
+      "input_tokens": 1683,
+      "output_tokens": 215,
+      "latency_s": 1.9423869580496103,
+      "cost_usd": 0.0,
+      "guard": ""
+    },
+    {
+      "question": "What was the 401(k) elective deferral limit for 2024 for an employee under age 50?",
+      "answer": "For 2024, the basic 401(k) elective deferral limit for an employee under age 50 was $23,000. The excerpt also says the catch-up contribution limit applies only to participants age 50 or over, so it does not apply here.",
+      "abstained": false,
+      "citations": [
+        {
+          "id": "560-2024-p26-c2",
+          "quote": "The basic limit on elective deferrals is $23,000 for 2024",
+          "verified": true,
+          "source": "Pub. 560 (2024), PDF p. 26"
+        },
+        {
+          "id": "560-2024-p26-c2",
+          "quote": "A 401(k) plan can permit participants who are age 50 or over at the end of the calendar year to also make catch-up contributions.",
+          "verified": true,
+          "source": "Pub. 560 (2024), PDF p. 26"
+        }
+      ],
+      "retrieved_ids": [
+        "560-2024-p26-c2",
+        "560-2024-p29-c1",
+        "560-2024-p26-c3",
+        "560-2024-p12-c5",
+        "560-2024-p12-c3",
+        "560-2024-p12-c4"
+      ],
+      "year_filter": 2024,
+      "model": "gpt-5.4-mini",
+      "mode": "full",
+      "input_tokens": 1716,
+      "output_tokens": 152,
+      "latency_s": 1.7107069169869646,
+      "cost_usd": 0.0,
+      "guard": ""
+    },
+    {
+      "question": "What is the elective deferral limit for 2025 for a participant under 50?",
+      "answer": "For 2025, the elective deferral limit for a participant under age 50 is $23,500. The excerpts say, \u201cThe limit on elective deferrals, other than catch-up contributions, is $23,500 for 2025\u201d and that for Roth elective deferrals the maximum is \u201c$23,500 if under age 50.\u201d",
+      "abstained": false,
+      "citations": [
+        {
+          "id": "560-2025-p2-c0",
+          "quote": "The limit on elective deferrals, other than catch-up contributions, is $23,500 for 2025",
+          "verified": true,
+          "source": "Pub. 560 (2025), PDF p. 2"
+        },
+        {
+          "id": "560-2025-p29-c1",
+          "quote": "for 2025, $23,500 if under age 50",
+          "verified": true,
+          "source": "Pub. 560 (2025), PDF p. 29"
+        }
+      ],
+      "retrieved_ids": [
+        "560-2025-p12-c3",
+        "560-2025-p26-c2",
+        "560-2025-p2-c0",
+        "560-2025-p29-c1",
+        "560-2025-p12-c5",
+        "560-2025-p13-c0"
+      ],
+      "year_filter": 2025,
+      "model": "gpt-5.4-mini",
+      "mode": "full",
+      "input_tokens": 1732,
+      "output_tokens": 157,
+      "latency_s": 1.6556729159783572,
+      "cost_usd": 0.0,
+      "guard": ""
+    },
+    {
+      "question": "What is the elective deferral limit in 2026 for someone under age 50?",
+      "answer": "For 2026, the elective deferral limit for someone under age 50 is $24,500. The excerpts say, \u201cThe limit on elective deferrals, other than catch-up contributions, is $23,500 for 2025 and $24,500 for 2026,\u201d and for 401(k) plans, \u201cthe annual individual elective deferral limit ... of $23,500 for 2025 ($24,500 for 2026).\u201d",
+      "abstained": false,
+      "citations": [
+        {
+          "id": "560-2025-p2-c0",
+          "quote": "The limit on elective deferrals, other than catch-up contributions, is $23,500 for 2025 and $24,500 for 2026.",
+          "verified": true,
+          "source": "Pub. 560 (2025), PDF p. 2"
+        },
+        {
+          "id": "560-2025-p29-c1",
+          "quote": "the annual individual elective deferral limit (total of all designated Roth contributions and traditional, pre-tax elective deferrals) of $23,500 for 2025 ($24,500 for 2026)",
+          "verified": true,
+          "source": "Pub. 560 (2025), PDF p. 29"
+        }
+      ],
+      "retrieved_ids": [
+        "560-2025-p26-c2",
+        "560-2025-p2-c0",
+        "560-2025-p12-c3",
+        "560-2025-p29-c1",
+        "560-2025-p12-c5",
+        "560-2025-p26-c3"
+      ],
+      "year_filter": 2025,
+      "model": "gpt-5.4-mini",
+      "mode": "full",
+      "input_tokens": 1758,
+      "output_tokens": 217,
+      "latency_s": 1.8927597081055865,
+      "cost_usd": 0.0,
+      "guard": ""
+    },
+    {
+      "question": "In 2024, how much could an employee age 50 or over defer in total, including catch-up contributions?",
+      "answer": "For 2024, an employee age 50 or over could defer up to $30,500 in total under a 401(k) plan, which is the $23,000 basic elective deferral limit plus the $7,500 catch-up contribution limit. The excerpt also states that for a SARSEP, the elective deferral limit is the lesser of 25% of compensation or $23,000, with a $7,500 catch-up limit for age 50 or over. Because the question asks generally about an employee age 50 or over and the excerpt gives the total by stating the annual limit is $23,000 with an additional $7,500 if age 50 or over, the total is $30,500 for 2024.",
+      "abstained": false,
+      "citations": [
+        {
+          "id": "560-2024-p29-c1",
+          "quote": "The annual individual elective deferral limit (total of all designated Roth contributions and traditional, pre-tax elective deferrals) of $23,000 for 2024 ($23,500 for 2025), with an additional $7,500 if age 50 or over;",
+          "verified": true,
+          "source": "Pub. 560 (2024), PDF p. 29"
+        },
+        {
+          "id": "560-2024-p26-c2",
+          "quote": "The basic limit on elective deferrals is $23,000 for 2024 and increases to $23,500 for 2025.",
+          "verified": true,
+          "source": "Pub. 560 (2024), PDF p. 26"
+        },
+        {
+          "id": "560-2024-p26-c2",
+          "quote": "The catch-up contribution limit is $7,500 for 2024 and 2025.",
+          "verified": true,
+          "source": "Pub. 560 (2024), PDF p. 26"
+        }
+      ],
+      "retrieved_ids": [
+        "560-2024-p12-c4",
+        "560-2024-p26-c3",
+        "560-2024-p12-c3",
+        "560-2024-p29-c1",
+        "560-2024-p26-c2",
+        "560-2024-p2-c1"
+      ],
+      "year_filter": 2024,
+      "model": "gpt-5.4-mini",
+      "mode": "full",
+      "input_tokens": 1732,
+      "output_tokens": 324,
+      "latency_s": 2.4210540410131216,
+      "cost_usd": 0.0,
+      "guard": ""
+    },
+    {
+      "question": "For 2025, what is the total elective deferral limit for a 52-year-old, including catch-up?",
+      "answer": "For 2025, the basic elective deferral limit is $23,500, and the catch-up contribution limit for participants age 50 or over is $7,500. So for a 52-year-old, the total elective deferral limit including catch-up is $31,000. This is supported by the 2025 basic limit and catch-up limit in the excerpts. The excerpts also state that catch-up contributions are additional to the elective deferral limit.",
+      "abstained": false,
+      "citations": [
+        {
+          "id": "560-2025-p26-c2",
+          "quote": "The basic limit on elective deferrals is $23,500 for 2025",
+          "verified": true,
+          "source": "Pub. 560 (2025), PDF p. 26"
+        },
+        {
+          "id": "560-2025-p26-c2",
+          "quote": "The catch-up contribution limit is $7,500 for 2025",
+          "verified": true,
+          "source": "Pub. 560 (2025), PDF p. 26"
+        },
+        {
+          "id": "560-2025-p26-c2",
+          "quote": "A 401(k) plan can permit participants who are age 50 or over",
+          "verified": true,
+          "source": "Pub. 560 (2025), PDF p. 26"
+        }
+      ],
+      "retrieved_ids": [
+        "560-2025-p12-c3",
+        "560-2025-p26-c3",
+        "560-2025-p2-c0",
+        "560-2025-p2-c2",
+        "560-2025-p12-c4",
+        "560-2025-p26-c2"
+      ],
+      "year_filter": 2025,
+      "model": "gpt-5.4-mini",
+      "mode": "full",
+      "input_tokens": 1885,
+      "output_tokens": 202,
+      "latency_s": 1.7672609579749405,
+      "cost_usd": 0.0,
+      "guard": ""
+    },
+    {
+      "question": "For 2025, what is the higher catch-up contribution limit for 401(k) participants who turn 61 that year?",
+      "answer": "For 2025, the higher catch-up contribution limit for 401(k) participants who attain age 60, 61, 62, or 63 in that tax year is $11,250. The excerpt states that this higher limit applies to 401(k) plans for participants in those ages in 2025 and 2026.",
+      "abstained": false,
+      "citations": [
+        {
+          "id": "560-2025-p26-c3",
+          "quote": "For 2025 and 2026, the higher limit on catch-up contributions to 401(k) plans (excluding SIMPLE plans) for such participants is $11,250.",
+          "verified": true,
+          "source": "Pub. 560 (2025), PDF p. 26"
+        },
+        {
+          "id": "560-2025-p2-c2",
+          "quote": "For 2025 and 2026, the higher limit on catch-up contributions for such participants is $11,250 ($5,250 for SIMPLE plans).",
+          "verified": true,
+          "source": "Pub. 560 (2025), PDF p. 2"
+        }
+      ],
+      "retrieved_ids": [
+        "560-2025-p26-c3",
+        "560-2025-p2-c2",
+        "560-2025-p16-c4",
+        "560-2025-p12-c4",
+        "560-2025-p2-c1",
+        "560-2025-p26-c4"
+      ],
+      "year_filter": 2025,
+      "model": "gpt-5.4-mini",
+      "mode": "full",
+      "input_tokens": 1859,
+      "output_tokens": 190,
+      "latency_s": 1.661691499990411,
+      "cost_usd": 0.0,
+      "guard": ""
+    },
+    {
+      "question": "In 2025, what is the higher catch-up limit for SIMPLE plan participants who attain age 62?",
+      "answer": "For 2025, the higher catch-up limit for SIMPLE plan participants who attain age 62 is $5,250. The excerpt says that beginning in 2025, SIMPLE plans may allow a higher amount of catch-up contributions in the tax year participants attain age 60, 61, 62, or 63, and that for 2025 and 2026 the higher limit for such participants is $5,250.",
+      "abstained": false,
+      "citations": [
+        {
+          "id": "560-2025-p16-c4",
+          "quote": "For 2025 and 2026, the higher limit on catch-up contributions to SIMPLE plans for such participants is $5,250.",
+          "verified": true,
+          "source": "Pub. 560 (2025), PDF p. 16"
+        },
+        {
+          "id": "560-2025-p16-c4",
+          "quote": "Beginning in 2025, section 109 of the SECURE 2.0 Act of 2022 permits SIMPLE plans ... to allow participants to make a higher amount of catch-up contributions",
+          "verified": false,
+          "source": "Pub. 560 (2025), PDF p. 16"
+        }
+      ],
+      "retrieved_ids": [
+        "560-2025-p2-c2",
+        "560-2025-p16-c4",
+        "560-2025-p26-c3",
+        "560-2025-p2-c1",
+        "560-2025-p12-c4",
+        "560-2025-p16-c3"
+      ],
+      "year_filter": 2025,
+      "model": "gpt-5.4-mini",
+      "mode": "full",
+      "input_tokens": 1842,
+      "output_tokens": 202,
+      "latency_s": 1.867629999993369,
+      "cost_usd": 0.0,
+      "guard": ""
+    },
+    {
+      "question": "What is the most an employer could contribute for 2024 to a common-law employee's SEP IRA?",
+      "answer": "For 2024, an employer could contribute up to the lesser of 25% of the employee's compensation or $69,000 to a common-law employee's SEP IRA. The excerpt also says the maximum contribution example for a $21,000 salary is $5,250.",
+      "abstained": false,
+      "citations": [
+        {
+          "id": "560-2024-p10-c2",
+          "quote": "Contributions you make for 2024 to a common-law employee's SEP IRA can't exceed the lesser of 25% of the employee's compensation or $69,000.",
+          "verified": true,
+          "source": "Pub. 560 (2024), PDF p. 10"
+        },
+        {
+          "id": "560-2024-p10-c2",
+          "quote": "The maximum contribution you can make to your employee\u2019s SEP IRA is $5,250 (25% (0.25) x $21,000).",
+          "verified": true,
+          "source": "Pub. 560 (2024), PDF p. 10"
+        }
+      ],
+      "retrieved_ids": [
+        "560-2024-p10-c2",
+        "560-2024-p10-c3",
+        "560-2024-p10-c4",
+        "560-2024-p11-c0",
+        "560-2024-p10-c5",
+        "560-2024-p10-c0"
+      ],
+      "year_filter": 2024,
+      "model": "gpt-5.4-mini",
+      "mode": "full",
+      "input_tokens": 1663,
+      "output_tokens": 172,
+      "latency_s": 1.8063758329953998,
+      "cost_usd": 0.0,
+      "guard": ""
+    },
+    {
+      "question": "For 2025, what is the maximum employer contribution to an employee's SEP IRA?",
+      "answer": "For 2025, the maximum employer contribution to an employee's SEP IRA is the lesser of 25% of the employee\u2019s compensation or $70,000.",
+      "abstained": false,
+      "citations": [
+        {
+          "id": "560-2025-p10-c2",
+          "quote": "Contributions you make for 2025 to a common-law employee's SEP IRA can't exceed the lesser of 25% of the employee's compensation or $70,000.",
+          "verified": true,
+          "source": "Pub. 560 (2025), PDF p. 10"
+        },
+        {
+          "id": "560-2025-p5-c0",
+          "quote": "SEP Due date of employer's return (including extensions). Smaller of $70,000 or 25%1 of participant's compensation.2",
+          "verified": true,
+          "source": "Pub. 560 (2025), PDF p. 5"
+        }
+      ],
+      "retrieved_ids": [
+        "560-2025-p10-c2",
+        "560-2025-p10-c3",
+        "560-2025-p10-c4",
+        "560-2025-p5-c0",
+        "560-2025-p12-c5",
+        "560-2025-p11-c0"
+      ],
+      "year_filter": 2025,
+      "model": "gpt-5.4-mini",
+      "mode": "full",
+      "input_tokens": 1526,
+      "output_tokens": 148,
+      "latency_s": 1.4988896660506725,
+      "cost_usd": 0.0,
+      "guard": ""
+    },
+    {
+      "question": "What is the 2026 limit on contributions, other than catch-up contributions, to a defined contribution plan?",
+      "answer": "The 2026 limit on contributions, other than catch-up contributions, to a defined contribution plan is $72,000.",
+      "abstained": false,
+      "citations": [
+        {
+          "id": "560-2025-p2-c0",
+          "quote": "The limit on contributions, other than catch-up contributions, for a participant in a defined contribution plan is $70,000 for 2025 and increases to $72,000 for 2026.",
+          "verified": true,
+          "source": "Pub. 560 (2025), PDF p. 2"
+        }
+      ],
+      "retrieved_ids": [
+        "560-2025-p2-c0",
+        "560-2025-p2-c1",
+        "560-2025-p26-c3",
+        "560-2025-p2-c2",
+        "560-2025-p12-c4",
+        "560-2025-p12-c3"
+      ],
+      "year_filter": 2025,
+      "model": "gpt-5.4-mini",
+      "mode": "full",
+      "input_tokens": 1912,
+      "output_tokens": 99,
+      "latency_s": 1.1941335829906166,
+      "cost_usd": 0.0,
+      "guard": ""
+    },
+    {
+      "question": "What was the general limit on SIMPLE IRA salary reduction contributions for 2024?",
+      "answer": "The general limit on SIMPLE IRA salary reduction contributions for 2024 was $16,000. The excerpts also say a higher limit of $17,600 may apply to participants in certain SIMPLE plans for 2024, but the general limit is $16,000.",
+      "abstained": false,
+      "citations": [
+        {
+          "id": "560-2024-p16-c2",
+          "quote": "generally can't be more than $16,000 for 2024 and increases to $16,500 for 2025.",
+          "verified": true,
+          "source": "Pub. 560 (2024), PDF p. 16"
+        },
+        {
+          "id": "560-2024-p2-c0",
+          "quote": "The limit on salary reduction contributions, other than catch-up contributions, is $16,000 for 2024",
+          "verified": true,
+          "source": "Pub. 560 (2024), PDF p. 2"
+        }
+      ],
+      "retrieved_ids": [
+        "560-2024-p16-c3",
+        "560-2024-p16-c4",
+        "560-2024-p16-c2",
+        "560-2024-p2-c0",
+        "560-2024-p2-c1",
+        "560-2024-p18-c2"
+      ],
+      "year_filter": 2024,
+      "model": "gpt-5.4-mini",
+      "mode": "full",
+      "input_tokens": 1733,
+      "output_tokens": 150,
+      "latency_s": 2.222483666962944,
+      "cost_usd": 0.0,
+      "guard": ""
+    },
+    {
+      "question": "What is the general SIMPLE IRA salary reduction contribution limit for 2025?",
+      "answer": "The general SIMPLE IRA salary reduction contribution limit for 2025 is $16,500.",
+      "abstained": false,
+      "citations": [
+        {
+          "id": "560-2025-p16-c2",
+          "quote": "generally can't be more than $16,500 for 2025",
+          "verified": true,
+          "source": "Pub. 560 (2025), PDF p. 16"
+        },
+        {
+          "id": "560-2025-p2-c1",
+          "quote": "The limit on salary reduction contributions, other than catch-up contributions, is $16,500 for 2025",
+          "verified": true,
+          "source": "Pub. 560 (2025), PDF p. 2"
+        }
+      ],
+      "retrieved_ids": [
+        "560-2025-p16-c2",
+        "560-2025-p16-c3",
+        "560-2025-p2-c1",
+        "560-2025-p16-c1",
+        "560-2025-p16-c4",
+        "560-2025-p2-c0"
+      ],
+      "year_filter": 2025,
+      "model": "gpt-5.4-mini",
+      "mode": "full",
+      "input_tokens": 1754,
+      "output_tokens": 102,
+      "latency_s": 1.1788681669859216,
+      "cost_usd": 0.0,
+      "guard": ""
+    },
+    {
+      "question": "What will the general SIMPLE IRA salary reduction limit be for 2026?",
+      "answer": "The general SIMPLE IRA salary reduction limit for 2026 will be $17,000. The excerpts state that the amount generally \"can't be more than $16,500 for 2025 and increases to $17,000 for 2026.\"",
+      "abstained": false,
+      "citations": [
+        {
+          "id": "560-2025-p16-c1",
+          "quote": "generally can't be more than $16,500 for 2025 and increases to $17,000 for 2026.",
+          "verified": true,
+          "source": "Pub. 560 (2025), PDF p. 16"
+        },
+        {
+          "id": "560-2025-p2-c0",
+          "quote": "The limit on salary reduction contributions, other than catch-up contributions, is $16,500 for 2025 and increases to $17,000 for 2026.",
+          "verified": true,
+          "source": "Pub. 560 (2025), PDF p. 2"
+        }
+      ],
+      "retrieved_ids": [
+        "560-2025-p16-c2",
+        "560-2025-p2-c1",
+        "560-2025-p16-c3",
+        "560-2025-p16-c1",
+        "560-2025-p16-c4",
+        "560-2025-p2-c0"
+      ],
+      "year_filter": 2025,
+      "model": "gpt-5.4-mini",
+      "mode": "full",
+      "input_tokens": 1754,
+      "output_tokens": 159,
+      "latency_s": 1.5651018338976428,
+      "cost_usd": 0.0,
+      "guard": ""
+    },
+    {
+      "question": "What was the maximum compensation that could be used to figure retirement plan contributions in 2024?",
+      "answer": "The maximum compensation that could be used to figure retirement plan contributions in 2024 was $345,000.",
+      "abstained": false,
+      "citations": [
+        {
+          "id": "560-2024-p1-c2",
+          "quote": "For 2024, the maximum compensation used for figuring contributions and benefits is $345,000.",
+          "verified": true,
+          "source": "Pub. 560 (2024), PDF p. 1"
+        },
+        {
+          "id": "560-2024-p24-c4",
+          "quote": "The maximum compensation that can be taken into account for each employee in 2024 is $345,000 ($350,000 in 2025).",
+          "verified": true,
+          "source": "Pub. 560 (2024), PDF p. 24"
+        }
+      ],
+      "retrieved_ids": [
+        "560-2024-p10-c4",
+        "560-2024-p5-c0",
+        "560-2024-p24-c4",
+        "560-2024-p10-c3",
+        "590A-2024-p39-c3",
+        "560-2024-p1-c2"
+      ],
+      "year_filter": 2024,
+      "model": "gpt-5.4-mini",
+      "mode": "full",
+      "input_tokens": 1464,
+      "output_tokens": 120,
+      "latency_s": 1.2638465000782162,
+      "cost_usd": 0.0,
+      "guard": ""
+    },
+    {
+      "question": "For 2025, what is the maximum compensation used for figuring contributions and benefits?",
+      "answer": "For 2025, the maximum compensation used for figuring contributions and benefits is $350,000.",
+      "abstained": false,
+      "citations": [
+        {
+          "id": "560-2025-p2-c0",
+          "quote": "For 2025, the maximum compensation used for figuring contributions and benefits is $350,000.",
+          "verified": true,
+          "source": "Pub. 560 (2025), PDF p. 2"
+        },
+        {
+          "id": "560-2025-p24-c4",
+          "quote": "The maximum compensation that can be taken into account for each employee in 2025 is $350,000",
+          "verified": true,
+          "source": "Pub. 560 (2025), PDF p. 24"
+        }
+      ],
+      "retrieved_ids": [
+        "560-2025-p2-c0",
+        "560-2025-p24-c4",
+        "560-2025-p24-c0",
+        "560-2025-p10-c3",
+        "560-2025-p12-c5",
+        "560-2025-p12-c1"
+      ],
+      "year_filter": 2025,
+      "model": "gpt-5.4-mini",
+      "mode": "full",
+      "input_tokens": 1610,
+      "output_tokens": 109,
+      "latency_s": 1.3419611250283197,
+      "cost_usd": 0.0,
+      "guard": ""
+    },
+    {
+      "question": "What is the 2025 limit on annual benefits for a participant in a defined benefit plan?",
+      "answer": "For 2025, the annual benefit limit for a participant in a defined benefit plan is $280,000. The publication says the annual benefit for a participant under a defined benefit plan \u201ccan\u2019t exceed\u201d the lesser of 100% of average compensation or $280,000 for 2025.",
+      "abstained": false,
+      "citations": [
+        {
+          "id": "560-2025-p24-c0",
+          "quote": "For 2025, the annual benefit for a participant under a defined benefit plan can't exceed the lesser of the following amounts.",
+          "verified": true,
+          "source": "Pub. 560 (2025), PDF p. 24"
+        },
+        {
+          "id": "560-2025-p24-c0",
+          "quote": "$280,000 for 2025 ($290,000 for 2026).",
+          "verified": true,
+          "source": "Pub. 560 (2025), PDF p. 24"
+        },
+        {
+          "id": "560-2025-p2-c0",
+          "quote": "The limit on annual benefits for a participant in a defined benefit plan is $280,000 for 2025",
+          "verified": true,
+          "source": "Pub. 560 (2025), PDF p. 2"
+        }
+      ],
+      "retrieved_ids": [
+        "560-2025-p24-c0",
+        "560-2025-p2-c0",
+        "560-2025-p20-c3",
+        "560-2025-p21-c4",
+        "590A-2025-p12-c5",
+        "560-2025-p24-c4"
+      ],
+      "year_filter": 2025,
+      "model": "gpt-5.4-mini",
+      "mode": "full",
+      "input_tokens": 1687,
+      "output_tokens": 187,
+      "latency_s": 1.8601942909881473,
+      "cost_usd": 0.0,
+      "guard": ""
+    },
+    {
+      "question": "In 2024, at what modified AGI can a single filer no longer contribute to a Roth IRA at all?",
+      "answer": "In 2024, a single filer who didn\u2019t live with a spouse at any time during the year can no longer make a Roth IRA contribution if modified AGI is $161,000 or more. The excerpt also says the limit is reduced starting at $146,000. [590A-2024-p2-c1: \u201cYour filing status is single... and your modified AGI is at least $146,000. You can\u2019t make a Roth IRA contribution if your modified AGI is $161,000 or more.\u201d]",
+      "abstained": false,
+      "citations": [
+        {
+          "id": "590A-2024-p2-c1",
+          "quote": "Your filing status is single, head of household, or married filing separately and you didn\u2019t live with your spouse at any time in 2024 and your modified AGI is at least $146,000. You can\u2019t make a Roth IRA contribution if your modified AGI is $161,000 or more.",
+          "verified": false,
+          "source": "Pub. 590-A (2024), PDF p. 2"
+        },
+        {
+          "id": "590A-2024-p38-c3",
+          "quote": "$161,000 for single, head of household, or married filing separately and you didn\u2019t live with your spouse at any time during the year",
+          "verified": true,
+          "source": "Pub. 590-A (2024), PDF p. 38"
+        }
+      ],
+      "retrieved_ids": [
+        "590A-2024-p39-c3",
+        "590A-2024-p2-c2",
+        "590A-2024-p2-c4",
+        "590A-2024-p2-c1",
+        "590A-2024-p38-c3",
+        "590A-2024-p2-c3"
+      ],
+      "year_filter": 2024,
+      "model": "gpt-5.4-mini",
+      "mode": "full",
+      "input_tokens": 1645,
+      "output_tokens": 252,
+      "latency_s": 2.1622507909778506,
+      "cost_usd": 0.0,
+      "guard": ""
+    },
+    {
+      "question": "For 2025, at what modified AGI is a single filer completely unable to make a Roth IRA contribution?",
+      "answer": "For 2025, a single filer cannot make a Roth IRA contribution if modified AGI is $165,000 or more. The excerpt says for 2025, a single filer\u2019s Roth IRA contribution limit is reduced if modified AGI is at least $150,000, and \u201cYou can\u2019t make a Roth IRA contribution if your modified AGI is $165,000 or more.\u201d",
+      "abstained": false,
+      "citations": [
+        {
+          "id": "590A-2025-p2-c1",
+          "quote": "Your filing status is single, head of household, or married filing separately and you didn\u2019t live with your spouse at any time in 2025 and your modified AGI is at least $150,000. You can\u2019t make a Roth IRA contribution if your modified AGI is $165,000 or more.",
+          "verified": true,
+          "source": "Pub. 590-A (2025), PDF p. 2"
+        }
+      ],
+      "retrieved_ids": [
+        "590A-2025-p2-c1",
+        "590A-2025-p40-c3",
+        "590A-2025-p2-c3",
+        "590A-2025-p2-c2",
+        "590A-2025-p2-c4",
+        "590A-2025-p2-c0"
+      ],
+      "year_filter": 2025,
+      "model": "gpt-5.4-mini",
+      "mode": "full",
+      "input_tokens": 1714,
+      "output_tokens": 178,
+      "latency_s": 1.6979222920490429,
+      "cost_usd": 0.0,
+      "guard": ""
+    },
+    {
+      "question": "For 2025, at what modified AGI does a single filer's Roth IRA contribution limit start to be reduced?",
+      "answer": "For 2025, a single filer\u2019s Roth IRA contribution limit starts to be reduced when modified AGI is at least $150,000. The contribution is completely unavailable if modified AGI is $165,000 or more.",
+      "abstained": false,
+      "citations": [
+        {
+          "id": "590A-2025-p2-c1",
+          "quote": "Your filing status is single, head of household, or married filing separately and you didn\u2019t live with your spouse at any time in 2025 and your modified AGI is at least $150,000.",
+          "verified": true,
+          "source": "Pub. 590-A (2025), PDF p. 2"
+        },
+        {
+          "id": "590A-2025-p2-c1",
+          "quote": "You can\u2019t make a Roth IRA contribution if your modified AGI is $165,000 or more.",
+          "verified": true,
+          "source": "Pub. 590-A (2025), PDF p. 2"
+        }
+      ],
+      "retrieved_ids": [
+        "590A-2025-p40-c3",
+        "590A-2025-p2-c1",
+        "590A-2025-p2-c3",
+        "590A-2025-p2-c2",
+        "590A-2025-p2-c0",
+        "590A-2025-p42-c0"
+      ],
+      "year_filter": 2025,
+      "model": "gpt-5.4-mini",
+      "mode": "full",
+      "input_tokens": 1732,
+      "output_tokens": 160,
+      "latency_s": 1.667748416075483,
+      "cost_usd": 0.0,
+      "guard": ""
+    },
+    {
+      "question": "For 2024, what is the modified AGI phase-out range for deducting traditional IRA contributions for a single filer covered by a workplace retirement plan?",
+      "answer": "For 2024, a single individual or head of household covered by a retirement plan at work has a modified AGI phase-out range of more than $77,000 but less than $87,000 for deducting traditional IRA contributions. The worksheet says the range applies when you are \"covered by an employer plan\" and your filing status is \"single or head of household\" with amounts \"$77,000\" and \"$87,000.\"",
+      "abstained": false,
+      "citations": [
+        {
+          "id": "590A-2024-p17-c0",
+          "quote": "are covered by an employer plan single or head of household $77,000 $87,000",
+          "verified": true,
+          "source": "Pub. 590-A (2024), PDF p. 17"
+        },
+        {
+          "id": "590A-2024-p2-c1",
+          "quote": "your deduction for contributions to a traditional IRA is reduced (phased out) if your modified AGI is:",
+          "verified": false,
+          "source": "Pub. 590-A (2024), PDF p. 2"
+        }
+      ],
+      "retrieved_ids": [
+        "590A-2024-p2-c3",
+        "590A-2024-p2-c1",
+        "590A-2024-p14-c3",
+        "590A-2024-p2-c2",
+        "590A-2024-p17-c0",
+        "590A-2024-p18-c0"
+      ],
+      "year_filter": 2024,
+      "model": "gpt-5.4-mini",
+      "mode": "full",
+      "input_tokens": 1817,
+      "output_tokens": 181,
+      "latency_s": 1.811352042015642,
+      "cost_usd": 0.0,
+      "guard": ""
+    },
+    {
+      "question": "For 2025, what is the traditional IRA deduction phase-out range for a married couple filing jointly when the contributor is covered by a plan at work?",
+      "answer": "For 2025, the traditional IRA deduction phase-out range for a married couple filing jointly when the contributor is covered by a plan at work is more than $126,000 but less than $146,000. The worksheet also shows the range as \u201c$126,000 $146,000\u201d for that filing status and coverage situation.",
+      "abstained": false,
+      "citations": [
+        {
+          "id": "590A-2025-p2-c0",
+          "quote": "More than $126,000 but less than $146,000 for a married couple filing a joint return or a qualifying surviving spouse",
+          "verified": true,
+          "source": "Pub. 590-A (2025), PDF p. 2"
+        },
+        {
+          "id": "590A-2025-p18-c0",
+          "quote": "married filing jointly or qualifying surviving spouse $126,000 $146,000",
+          "verified": true,
+          "source": "Pub. 590-A (2025), PDF p. 18"
+        }
+      ],
+      "retrieved_ids": [
+        "590A-2025-p19-c0",
+        "590A-2025-p20-c0",
+        "590A-2025-p58-c0",
+        "590A-2025-p55-c0",
+        "590A-2025-p2-c0",
+        "590A-2025-p18-c0"
+      ],
+      "year_filter": 2025,
+      "model": "gpt-5.4-mini",
+      "mode": "full",
+      "input_tokens": 1845,
+      "output_tokens": 160,
+      "latency_s": 1.6874152910895646,
+      "cost_usd": 0.0,
+      "guard": ""
+    },
+    {
+      "question": "What was the maximum annual exclusion for qualified charitable distributions (QCDs) in 2024?",
+      "answer": "The maximum annual exclusion for QCDs in 2024 was $105,000.",
+      "abstained": false,
+      "citations": [
+        {
+          "id": "590B-2024-p13-c3",
+          "quote": "The maximum annual exclusion for QCDs is $105,000.",
+          "verified": true,
+          "source": "Pub. 590-B (2024), PDF p. 13"
+        },
+        {
+          "id": "590B-2024-p69-c3",
+          "quote": "not to exceed $105,000.",
+          "verified": true,
+          "source": "Pub. 590-B (2024), PDF p. 69"
+        }
+      ],
+      "retrieved_ids": [
+        "590B-2024-p13-c3",
+        "590B-2024-p13-c4",
+        "590B-2024-p14-c2",
+        "590B-2024-p14-c3",
+        "590B-2024-p14-c1",
+        "590B-2024-p69-c3"
+      ],
+      "year_filter": 2024,
+      "model": "gpt-5.4-mini",
+      "mode": "full",
+      "input_tokens": 1679,
+      "output_tokens": 90,
+      "latency_s": 1.1481650840723887,
+      "cost_usd": 0.0,
+      "guard": ""
+    },
+    {
+      "question": "What is the maximum annual exclusion for QCDs for 2025?",
+      "answer": "The maximum annual exclusion for QCDs for 2025 is $108,000.",
+      "abstained": false,
+      "citations": [
+        {
+          "id": "590B-2025-p14-c0",
+          "quote": "The maximum annual exclusion for QCDs is $108,000.",
+          "verified": true,
+          "source": "Pub. 590-B (2025), PDF p. 14"
+        }
+      ],
+      "retrieved_ids": [
+        "590B-2025-p14-c0",
+        "590B-2025-p14-c4",
+        "590A-2025-p47-c4",
+        "560-2025-p29-c2",
+        "590B-2025-p15-c1",
+        "560-2025-p2-c0"
+      ],
+      "year_filter": 2025,
+      "model": "gpt-5.4-mini",
+      "mode": "full",
+      "input_tokens": 1776,
+      "output_tokens": 67,
+      "latency_s": 1.2983142079319805,
+      "cost_usd": 0.0,
+      "guard": ""
+    },
+    {
+      "question": "If I reach age 72 after December 31, 2022, at what age do I have to start required minimum distributions from my traditional IRA?",
+      "answer": "If you reach age 72 after December 31, 2022, your required beginning date is age 73, and you must begin receiving required minimum distributions by April 1 of the year following the year you reach age 73.",
+      "abstained": false,
+      "citations": [
+        {
+          "id": "590B-2025-p6-c4",
+          "quote": "Age 73 for tax years 2023 and later. If you reach age 72 after December 31, 2022, you must begin receiving required minimum distributions by April 1 of the year following the year you reach the age 73.",
+          "verified": true,
+          "source": "Pub. 590-B (2025), PDF p. 6"
+        }
+      ],
+      "retrieved_ids": [
+        "590B-2025-p6-c5",
+        "590B-2025-p6-c4",
+        "590B-2024-p6-c3",
+        "590B-2024-p6-c2",
+        "590B-2024-p47-c0",
+        "590B-2025-p47-c0"
+      ],
+      "year_filter": null,
+      "model": "gpt-5.4-mini",
+      "mode": "full",
+      "input_tokens": 1785,
+      "output_tokens": 134,
+      "latency_s": 1.3705922500230372,
+      "cost_usd": 0.0,
+      "guard": ""
+    },
+    {
+      "question": "By what date must the first required minimum distribution from a traditional IRA be taken?",
+      "answer": "For a traditional IRA owner, the first required minimum distribution must generally be taken by April 1 of the year following the year in which you reach your applicable required beginning date. The excerpts say you must \"start receiving distributions from your IRA by April 1 of the year following the year in which you reach your applicable required beginning date.\" They also state the applicable required beginning date is age 73 for tax years 2023 and later.",
+      "abstained": false,
+      "citations": [
+        {
+          "id": "590B-2025-p6-c4",
+          "quote": "must generally start receiving distributions from your IRA by April 1 of the year following the year in which you reach your applicable required beginning date",
+          "verified": true,
+          "source": "Pub. 590-B (2025), PDF p. 6"
+        },
+        {
+          "id": "590B-2025-p6-c4",
+          "quote": "Age 73 for tax years 2023 and later.",
+          "verified": true,
+          "source": "Pub. 590-B (2025), PDF p. 6"
+        }
+      ],
+      "retrieved_ids": [
+        "590B-2025-p6-c4",
+        "590B-2024-p6-c2",
+        "590B-2024-p6-c5",
+        "590B-2025-p12-c4",
+        "590B-2025-p7-c1",
+        "590B-2025-p7-c0"
+      ],
+      "year_filter": null,
+      "model": "gpt-5.4-mini",
+      "mode": "full",
+      "input_tokens": 1547,
+      "output_tokens": 177,
+      "latency_s": 1.7148059169994667,
+      "cost_usd": 0.0,
+      "guard": ""
+    },
+    {
+      "question": "How much can I withdraw from my IRA before age 59 1/2 for a first home without paying the 10% additional tax?",
+      "answer": "The excerpt says you may not have to pay the 10% additional tax if \u201cthe distribution is for your qualified higher education expenses\u201d and if \u201cyou use the distributions to buy, build, or rebuild a first home.\u201d It also says that for first-home distributions from an IRA, the exception applies to \u201cup to $10,000\u201d of distributions. However, the excerpt does not say whether that $10,000 limit applies to your exact question beyond the general first-home exception, so I can only state that the cited excerpt mentions \u201cup to $10,000.\u201d",
+      "abstained": true,
+      "citations": [
+        {
+          "id": "590B-2024-p24-c3",
+          "quote": "The distribution is for your qualified higher education expenses. \u2022 You use the distributions to buy, build, or rebuild a first home.",
+          "verified": true,
+          "source": "Pub. 590-B (2024), PDF p. 24"
+        },
+        {
+          "id": "560-2025-p34-c5",
+          "quote": "don't have to pay the 10% additional tax on up to $10,000 of distributions you receive from an IRA to buy, build, or rebuild a first home",
+          "verified": true,
+          "source": "Pub. 560 (2025), PDF p. 34"
+        }
+      ],
+      "retrieved_ids": [
+        "590B-2024-p6-c0",
+        "590B-2024-p24-c3",
+        "590B-2025-p6-c2",
+        "590A-2025-p31-c2",
+        "590B-2024-p24-c2",
+        "560-2025-p34-c5"
+      ],
+      "year_filter": null,
+      "model": "gpt-5.4-mini",
+      "mode": "full",
+      "input_tokens": 1706,
+      "output_tokens": 226,
+      "latency_s": 2.145393415936269,
+      "cost_usd": 0.0,
+      "guard": ""
+    },
+    {
+      "question": "What excise tax applies to excess IRA contributions that are not withdrawn in time?",
+      "answer": "The excerpts say excess IRA contributions that are not withdrawn by the due date of the return, including extensions, are subject to a 6% tax. The tax is applied each year to excess amounts that remain in the traditional IRA at the end of the tax year, and it cannot be more than 6% of the combined value of all IRAs as of the end of the tax year.",
+      "abstained": false,
+      "citations": [
+        {
+          "id": "590A-2025-p35-c0",
+          "quote": "if the excess contributions for a year aren\u2019t withdrawn by the date your return for the year is due (including extensions), you are subject to a 6% tax.",
+          "verified": true,
+          "source": "Pub. 590-A (2025), PDF p. 35"
+        },
+        {
+          "id": "590A-2025-p35-c0",
+          "quote": "You must pay the 6% tax each year on excess amounts that remain in your traditional IRA at the end of your tax year.",
+          "verified": true,
+          "source": "Pub. 590-A (2025), PDF p. 35"
+        },
+        {
+          "id": "590A-2025-p35-c0",
+          "quote": "The tax can\u2019t be more than 6% of the combined value of all your IRAs as of the end of your tax year.",
+          "verified": true,
+          "source": "Pub. 590-A (2025), PDF p. 35"
+        }
+      ],
+      "retrieved_ids": [
+        "590A-2025-p36-c0",
+        "590A-2024-p35-c0",
+        "590A-2025-p32-c1",
+        "590A-2024-p31-c1",
+        "590A-2024-p34-c0",
+        "590A-2025-p35-c0"
+      ],
+      "year_filter": null,
+      "model": "gpt-5.4-mini",
+      "mode": "full",
+      "input_tokens": 1721,
+      "output_tokens": 233,
+      "latency_s": 1.8193614999763668,
+      "cost_usd": 0.0,
+      "guard": ""
+    },
+    {
+      "question": "What additional tax generally applies to IRA distributions taken before age 59 1/2?",
+      "answer": "Generally, if you are under age 59\u00bd, you must pay a 10% additional tax on distributions from your traditional IRA that are included in gross income. These are called early distributions.",
+      "abstained": false,
+      "citations": [
+        {
+          "id": "590B-2025-p24-c2",
+          "quote": "Generally, if you are under age 591/2, you must pay a 10% additional tax",
+          "verified": true,
+          "source": "Pub. 590-B (2025), PDF p. 24"
+        },
+        {
+          "id": "590B-2025-p24-c2",
+          "quote": "The 10% additional tax applies to the part of the distribution that you have to include in gross income.",
+          "verified": true,
+          "source": "Pub. 590-B (2025), PDF p. 24"
+        },
+        {
+          "id": "590B-2025-p24-c2",
+          "quote": "Distributions before you are age 591/2 are called \u201cearly distributions.\u201d",
+          "verified": true,
+          "source": "Pub. 590-B (2025), PDF p. 24"
+        }
+      ],
+      "retrieved_ids": [
+        "590B-2025-p24-c2",
+        "590B-2024-p24-c2",
+        "590B-2024-p32-c1",
+        "590B-2025-p32-c1",
+        "590B-2024-p38-c0",
+        "590A-2024-p36-c1"
+      ],
+      "year_filter": null,
+      "model": "gpt-5.4-mini",
+      "mode": "full",
+      "input_tokens": 1739,
+      "output_tokens": 164,
+      "latency_s": 1.4990711669670418,
+      "cost_usd": 0.0,
+      "guard": ""
+    },
+    {
+      "question": "How many days do I generally have to roll over a distribution from my IRA into another IRA?",
+      "answer": "You generally have 60 days to roll over a distribution from your IRA into another IRA. The excerpts say a distribution can be rolled over \u201cwithin 60 days after the distribution,\u201d and amounts contributed after that are treated as a regular contribution, not a rollover contribution.",
+      "abstained": false,
+      "citations": [
+        {
+          "id": "590A-2025-p44-c1",
+          "quote": "receive a distribution from a traditional IRA and roll it over (contribute it) to a Roth IRA within 60 days after the distribution.",
+          "verified": true,
+          "source": "Pub. 590-A (2025), PDF p. 44"
+        },
+        {
+          "id": "590A-2025-p23-c0",
+          "quote": "any contribution you make to your IRA more than 60 days after the distribution is a regular contribution, not a rollover contribution.",
+          "verified": true,
+          "source": "Pub. 590-A (2025), PDF p. 23"
+        }
+      ],
+      "retrieved_ids": [
+        "590A-2025-p23-c0",
+        "590A-2024-p22-c0",
+        "590A-2025-p29-c6",
+        "590A-2024-p28-c6",
+        "590A-2025-p44-c1",
+        "590A-2024-p43-c1"
+      ],
+      "year_filter": null,
+      "model": "gpt-5.4-mini",
+      "mode": "full",
+      "input_tokens": 1589,
+      "output_tokens": 156,
+      "latency_s": 1.4694056670414284,
+      "cost_usd": 0.0,
+      "guard": ""
+    },
+    {
+      "question": "How often can I do an IRA-to-IRA rollover?",
+      "answer": "You can make only one rollover from an IRA to another (or the same) IRA in any 1-year period, regardless of how many IRAs you own. The rule applies by aggregating your IRAs, and the 1-year period begins on the date you receive the IRA distribution. Trustee-to-trustee transfers are not limited. These excerpts also say this limit does not apply to rollovers from traditional IRAs to Roth IRAs (conversions).",
+      "abstained": false,
+      "citations": [
+        {
+          "id": "590A-2025-p25-c2",
+          "quote": "You can make only one rollover from an IRA to another (or the same) IRA in any 1-year period regardless of the number of IRAs you own.",
+          "verified": true,
+          "source": "Pub. 590-A (2025), PDF p. 25"
+        },
+        {
+          "id": "590A-2025-p25-c2",
+          "quote": "The limit will apply by aggregating all of an individual's IRAs (whether traditional, Roth, or SIMPLE)",
+          "verified": true,
+          "source": "Pub. 590-A (2025), PDF p. 25"
+        },
+        {
+          "id": "590A-2025-p25-c0",
+          "quote": "The 1-year period begins on the date you receive the IRA distribution, not on the date you roll it over into an IRA.",
+          "verified": true,
+          "source": "Pub. 590-A (2025), PDF p. 25"
+        },
+        {
+          "id": "590A-2025-p25-c2",
+          "quote": "However, trustee-to-trustee transfers between IRAs aren\u2019t limited",
+          "verified": true,
+          "source": "Pub. 590-A (2025), PDF p. 25"
+        },
+        {
+          "id": "590A-2025-p25-c2",
+          "quote": "rollovers from traditional IRAs to Roth IRAs (conversions) aren\u2019t limited.",
+          "verified": true,
+          "source": "Pub. 590-A (2025), PDF p. 25"
+        }
+      ],
+      "retrieved_ids": [
+        "590A-2025-p25-c0",
+        "590A-2024-p24-c1",
+        "590A-2025-p25-c1",
+        "590A-2024-p24-c0",
+        "590A-2024-p24-c2",
+        "590A-2025-p25-c2"
+      ],
+      "year_filter": null,
+      "model": "gpt-5.4-mini",
+      "mode": "full",
+      "input_tokens": 1806,
+      "output_tokens": 303,
+      "latency_s": 2.1664387499913573,
+      "cost_usd": 0.0,
+      "guard": ""
+    },
+    {
+      "question": "For an IRA owner who died, by when must distributions generally be completed for beneficiaries who aren't eligible designated beneficiaries?",
+      "answer": "If the beneficiary is an individual who is not an eligible designated beneficiary, the IRA generally must be fully distributed by December 31 of the year containing the 10th anniversary of the owner\u2019s death. The excerpts also say that under the 10-year rule, beneficiaries who are not taking life expectancy payments must withdraw the entire balance by that date.",
+      "abstained": false,
+      "citations": [
+        {
+          "id": "590B-2025-p11-c0",
+          "quote": "If the individual designated beneficiary is not an eligible designated beneficiary, the beneficiary is required to fully distribute the IRA by the 10th anniversary of the owner's death under the 10-year rule.",
+          "verified": true,
+          "source": "Pub. 590-B (2025), PDF p. 11"
+        },
+        {
+          "id": "590B-2025-p10-c5",
+          "quote": "The 10-year rule requires the IRA beneficiaries who are not taking life expectancy payments to withdraw the entire balance of the IRA by December 31 of the year containing the 10th anniversary of the owner\u2019s death.",
+          "verified": true,
+          "source": "Pub. 590-B (2025), PDF p. 10"
+        }
+      ],
+      "retrieved_ids": [
+        "590B-2025-p10-c5",
+        "590B-2025-p8-c6",
+        "590B-2024-p10-c0",
+        "590B-2025-p8-c5",
+        "590B-2025-p37-c3",
+        "590B-2025-p11-c0"
+      ],
+      "year_filter": null,
+      "model": "gpt-5.4-mini",
+      "mode": "full",
+      "input_tokens": 1465,
+      "output_tokens": 200,
+      "latency_s": 1.6665691250236705,
+      "cost_usd": 0.0,
+      "guard": ""
+    },
+    {
+      "question": "Under SECURE 2.0, what percentage of qualified startup costs can employers with 1 to 50 employees claim for the small employer pension plan startup cost credit?",
+      "answer": "Employers with 1 to 50 employees can claim 100% of qualified startup costs for the small employer pension plan startup cost credit under SECURE 2.0. The excerpt says eligible employers with 1\u201350 employees are eligible for an increased credit of 100% of qualified startup costs, subject to the stated limit.",
+      "abstained": false,
+      "citations": [
+        {
+          "id": "560-2025-p3-c0",
+          "quote": "eligible employers with 1\u201350 employees are eligible for an increased small employer pension plan startup cost credit under section 45E of 100% of qualified startup costs",
+          "verified": true,
+          "source": "Pub. 560 (2025), PDF p. 3"
+        },
+        {
+          "id": "560-2024-p2-c2",
+          "quote": "eligible employers with 1\u201350 employees are eligible for an increased small employer pension plan startup cost credit under section 45E of 100% of qualified startup costs",
+          "verified": true,
+          "source": "Pub. 560 (2024), PDF p. 2"
+        }
+      ],
+      "retrieved_ids": [
+        "560-2024-p2-c3",
+        "560-2025-p3-c0",
+        "560-2025-p3-c1",
+        "560-2024-p2-c2",
+        "560-2025-p2-c4",
+        "560-2025-p3-c2"
+      ],
+      "year_filter": null,
+      "model": "gpt-5.4-mini",
+      "mode": "full",
+      "input_tokens": 1690,
+      "output_tokens": 181,
+      "latency_s": 1.5829402089584619,
+      "cost_usd": 0.0,
+      "guard": ""
+    },
+    {
+      "question": "Can a sole proprietor with no employees still adopt a 401(k) plan after the tax year ends?",
+      "answer": "Yes. For 2023 and later years, \"a sole proprietor with no employees can adopt a section 401(k) plan after the end of the tax year,\" as long as \"the plan is adopted by the tax filing deadline (without regard to extensions).\"",
+      "abstained": false,
+      "citations": [
+        {
+          "id": "560-2024-p2-c2",
+          "quote": "For 2023 and later years, a sole-proprietor with no employees can adopt a section 401(k) plan after the end of the",
+          "verified": true,
+          "source": "Pub. 560 (2024), PDF p. 2"
+        },
+        {
+          "id": "560-2025-p3-c0",
+          "quote": "For 2023 and later years, a sole proprietor with no employees can adopt a section 401(k) plan after the end of the tax year, provided the plan is adopted by the tax filing deadline (without regard to extensions).",
+          "verified": true,
+          "source": "Pub. 560 (2025), PDF p. 3"
+        }
+      ],
+      "retrieved_ids": [
+        "560-2024-p22-c3",
+        "560-2025-p22-c4",
+        "560-2024-p2-c2",
+        "560-2025-p3-c0",
+        "560-2025-p7-c3",
+        "560-2024-p3-c4"
+      ],
+      "year_filter": null,
+      "model": "gpt-5.4-mini",
+      "mode": "full",
+      "input_tokens": 1624,
+      "output_tokens": 180,
+      "latency_s": 1.633191957953386,
+      "cost_usd": 0.0,
+      "guard": ""
+    },
+    {
+      "question": "What is the 401(k) elective deferral limit for 2028?",
+      "answer": "The indexed publications cover tax years 2024 and 2025 (with some 2023 and 2026 amounts). They don't state rules for 2028, so I can't answer that.",
+      "abstained": true,
+      "citations": [],
+      "retrieved_ids": [
+        "560-2024-p26-c2",
+        "560-2025-p26-c2",
+        "560-2025-p12-c3",
+        "560-2024-p12-c5",
+        "560-2025-p2-c0",
+        "560-2024-p26-c3"
+      ],
+      "year_filter": null,
+      "model": "gpt-5.4-mini",
+      "mode": "full",
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "latency_s": 0.0,
+      "cost_usd": 0.0,
+      "guard": "year_out_of_coverage"
+    },
+    {
+      "question": "How much can I put in an IRA in 2030?",
+      "answer": "The indexed publications cover tax years 2024 and 2025 (with some 2023 and 2026 amounts). They don't state rules for 2030, so I can't answer that.",
+      "abstained": true,
+      "citations": [],
+      "retrieved_ids": [
+        "590A-2025-p1-c0",
+        "590A-2025-p5-c0",
+        "590A-2024-p1-c0",
+        "590A-2024-p5-c1",
+        "590A-2024-p5-c0",
+        "590B-2025-p10-c5"
+      ],
+      "year_filter": null,
+      "model": "gpt-5.4-mini",
+      "mode": "full",
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "latency_s": 0.0,
+      "cost_usd": 0.0,
+      "guard": "year_out_of_coverage"
+    },
+    {
+      "question": "What is the annual HSA contribution limit for family coverage in 2025?",
+      "answer": "Abstain: the provided excerpts do not state the annual HSA contribution limit for family coverage in 2025. The only HSA-related excerpt says a qualified HSA funding distribution must be \u201cless than or equal to your maximum annual HSA contribution,\u201d but it does not give the family-coverage dollar limit.",
+      "abstained": true,
+      "citations": [
+        {
+          "id": "590B-2025-p15-c1",
+          "quote": "The distribution must be less than or equal to your maximum annual HSA contribution.",
+          "verified": true,
+          "source": "Pub. 590-B (2025), PDF p. 15"
+        }
+      ],
+      "retrieved_ids": [
+        "560-2025-p2-c0",
+        "560-2025-p10-c3",
+        "560-2025-p24-c0",
+        "590B-2025-p15-c1",
+        "560-2025-p2-c1",
+        "560-2025-p12-c3"
+      ],
+      "year_filter": 2025,
+      "model": "gpt-5.4-mini",
+      "mode": "full",
+      "input_tokens": 1786,
+      "output_tokens": 115,
+      "latency_s": 1.437844416941516,
+      "cost_usd": 0.0,
+      "guard": ""
+    },
+    {
+      "question": "What is the health FSA salary reduction limit for 2025?",
+      "answer": "The provided excerpts do not state a health FSA salary reduction limit for 2025. They only give salary reduction contribution limits for SIMPLE plans, SARSEPs, 401(k), 403(b), and similar retirement arrangements, not health FSAs.",
+      "abstained": true,
+      "citations": [
+        {
+          "id": "560-2025-p2-c0",
+          "quote": "The limit on elective deferrals, other than catch-up contributions, is $23,500 for 2025 and $24,500 for 2026.",
+          "verified": true,
+          "source": "Pub. 560 (2025), PDF p. 2"
+        },
+        {
+          "id": "560-2025-p2-c1",
+          "quote": "The limit on salary reduction contributions, other than catch-up contributions, is $16,500 for 2025 and increases to $17,000 for 2026.",
+          "verified": true,
+          "source": "Pub. 560 (2025), PDF p. 2"
+        }
+      ],
+      "retrieved_ids": [
+        "560-2025-p2-c1",
+        "560-2025-p16-c2",
+        "560-2025-p2-c0",
+        "560-2025-p17-c0",
+        "560-2025-p16-c4",
+        "560-2025-p12-c3"
+      ],
+      "year_filter": 2025,
+      "model": "gpt-5.4-mini",
+      "mode": "full",
+      "input_tokens": 1802,
+      "output_tokens": 165,
+      "latency_s": 1.9631777500035241,
+      "cost_usd": 0.0,
+      "guard": ""
+    },
+    {
+      "question": "How does California tax IRA distributions?",
+      "answer": "The provided excerpts do not say how California taxes IRA distributions. They only state that, in general, distributions from a traditional IRA are taxable in the year you receive them, and list certain federal exceptions and withholding rules. No California-specific rule is included.",
+      "abstained": true,
+      "citations": [
+        {
+          "id": "590B-2025-p13-c4",
+          "quote": "In general, distributions from a traditional IRA are taxable in the year you receive them.",
+          "verified": true,
+          "source": "Pub. 590-B (2025), PDF p. 13"
+        },
+        {
+          "id": "590B-2024-p13-c2",
+          "quote": "Exceptions to distributions from traditional IRAs being taxable in the year you receive them are:",
+          "verified": true,
+          "source": "Pub. 590-B (2024), PDF p. 13"
+        },
+        {
+          "id": "590B-2024-p21-c4",
+          "quote": "Withholding. Federal income tax is withheld from distributions from traditional IRAs unless you choose not to have tax withheld.",
+          "verified": true,
+          "source": "Pub. 590-B (2024), PDF p. 21"
+        }
+      ],
+      "retrieved_ids": [
+        "590B-2024-p38-c0",
+        "590B-2025-p38-c0",
+        "590B-2024-p13-c2",
+        "590B-2025-p13-c4",
+        "590B-2025-p21-c4",
+        "590B-2024-p21-c4"
+      ],
+      "year_filter": null,
+      "model": "gpt-5.4-mini",
+      "mode": "full",
+      "input_tokens": 1659,
+      "output_tokens": 172,
+      "latency_s": 1.7083005839958787,
+      "cost_usd": 0.0,
+      "guard": ""
+    },
+    {
+      "question": "Which index fund should I buy inside my Roth IRA?",
+      "answer": "I abstain. The provided IRS excerpts discuss Roth IRA distribution rules and tax treatment, but they do not contain guidance on choosing an index fund or any investment selection advice.",
+      "abstained": true,
+      "citations": [
+        {
+          "id": "590B-2025-p34-c0",
+          "quote": "The distribution from the Roth IRA is a qualified distribution.",
+          "verified": false,
+          "source": "Pub. 590-B (2025), PDF p. 34"
+        },
+        {
+          "id": "590B-2024-p34-c0",
+          "quote": "The distribution from the Roth IRA isn't a qualified distribution.",
+          "verified": false,
+          "source": "Pub. 590-B (2024), PDF p. 34"
+        }
+      ],
+      "retrieved_ids": [
+        "590A-2025-p60-c0",
+        "590A-2024-p59-c0",
+        "590B-2025-p37-c1",
+        "590B-2024-p37-c1",
+        "590B-2025-p34-c0",
+        "590B-2024-p34-c0"
+      ],
+      "year_filter": null,
+      "model": "gpt-5.4-mini",
+      "mode": "full",
+      "input_tokens": 1791,
+      "output_tokens": 110,
+      "latency_s": 1.384656999958679,
+      "cost_usd": 0.0,
+      "guard": ""
+    },
+    {
+      "question": "What is Acme Corp's 401(k) employer match formula?",
+      "answer": "Abstain: the excerpts do not identify Acme Corp or state its specific 401(k) employer match formula. The excerpts only say that in a safe harbor 401(k) plan, an employer must make matching or nonelective contributions according to one of the listed formulas, and that matching contributions are generally dollar-for-dollar up to 3% of compensation.",
+      "abstained": true,
+      "citations": [
+        {
+          "id": "560-2025-p28-c3",
+          "quote": "For your plan to be a safe harbor plan, you must meet the following conditions. 1. Matching or nonelective contributions.",
+          "verified": true,
+          "source": "Pub. 560 (2025), PDF p. 28"
+        },
+        {
+          "id": "560-2025-p16-c4",
+          "quote": "Employer matching contributions. You are generally required to match each employee's salary reduction contribution(s) on a dollar-for-dollar basis up to 3% of the employee's compensation",
+          "verified": true,
+          "source": "Pub. 560 (2025), PDF p. 16"
+        }
+      ],
+      "retrieved_ids": [
+        "560-2025-p16-c6",
+        "560-2024-p16-c6",
+        "560-2025-p16-c4",
+        "560-2024-p28-c2",
+        "560-2025-p28-c3",
+        "560-2025-p26-c1"
+      ],
+      "year_filter": null,
+      "model": "gpt-5.4-mini",
+      "mode": "full",
+      "input_tokens": 1591,
+      "output_tokens": 183,
+      "latency_s": 1.8767810000572354,
+      "cost_usd": 0.0,
+      "guard": ""
+    }
+  ]
+}
