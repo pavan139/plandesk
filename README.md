@@ -20,9 +20,9 @@ Ask a question about U.S. retirement-plan rules. PlanDesk searches IRS Publicati
 question ──► year detector ──► hybrid retrieval (BM25 + embeddings, RRF) ──► LLM (JSON: answer + quotes)
                 │                       │ filtered to the asked year's edition          │
                 ▼                       ▼                                                ▼
-      year beyond 2026? refuse    top 6 page-anchored chunks               every quote must appear verbatim
-                                                                            in the cited chunk, or the answer
-                                                                            becomes a refusal
+      year beyond 2026? refuse    top 6 page-anchored chunks               each quote is checked against its
+                                                                            chunk; if none appears verbatim,
+                                                                            the answer becomes a refusal
 ```
 
 | Piece | File | What it does |
@@ -45,6 +45,8 @@ question ──► year detector ──► hybrid retrieval (BM25 + embeddings, 
 | PlanDesk (year-aware hybrid retrieval + verified-quote guard) | gpt-5.4-nano | 88.6% | 85.7% | 11.4% | 100.0% | 1.66 s | 1834 |
 
 Full per-category table and every miss: [`evals/REPORT.md`](evals/REPORT.md).
+
+Check these numbers without an API key: `uv sync && uv run python scripts/report.py` rebuilds `evals/REPORT.md` from the committed runs in `evals/results/`, and `uv run pytest` re-scores them against the release gate.
 
 **What the numbers say, including the unflattering parts**
 
