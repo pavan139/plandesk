@@ -46,6 +46,8 @@ question ──► year detector ──► hybrid retrieval (BM25 + embeddings, 
 
 Full per-category table and every miss: [`evals/REPORT.md`](evals/REPORT.md).
 
+Check these numbers without an API key: `uv sync && uv run python scripts/report.py` rebuilds `evals/REPORT.md` from the committed runs in `evals/results/`, and `uv run pytest` re-scores them against the release gate.
+
 **What the numbers say, including the unflattering parts**
 
 - **Retrieval is the big win.** But not for raw accuracy. Closed book scored 94.3% because the model already knows most 2024 and 2025 limits. The difference is trust: closed book answered 3 of the 7 questions the publications don't cover (HSA, FSA, California tax) with no source to check, and its 2 misses were confident and wrong, such as telling a 55-year-old that the 2025 IRA limit is $7,000 when Pub. 590-A says $8,000. With retrieval, every answer comes with a quote you can open, and out-of-scope questions are refused.
