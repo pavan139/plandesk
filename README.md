@@ -20,9 +20,9 @@ Ask a question about U.S. retirement-plan rules. PlanDesk searches IRS Publicati
 question ──► year detector ──► hybrid retrieval (BM25 + embeddings, RRF) ──► LLM (JSON: answer + quotes)
                 │                       │ filtered to the asked year's edition          │
                 ▼                       ▼                                                ▼
-      year beyond 2026? refuse    top 6 page-anchored chunks               every quote must appear verbatim
-                                                                            in the cited chunk, or the answer
-                                                                            becomes a refusal
+      year beyond 2026? refuse    top 6 page-anchored chunks               each quote is checked against its
+                                                                            chunk; if none appears verbatim,
+                                                                            the answer becomes a refusal
 ```
 
 | Piece | File | What it does |
